@@ -108,6 +108,8 @@ int main()
     a.traverse();
     a.deletenodepos(3);
     a.traverse();
+    a.deletenodepos(0);
+    a.traverse();
     a.addnode(3);
     a.traverse();
     return 0;
